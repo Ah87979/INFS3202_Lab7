@@ -17,5 +17,6 @@ class Employee:
     def setDepartment(self, department):
         self.department = department
 
-    def addEmployee(self, id):
+class EmployeeManager:
+    def __init__(self, employee):
         
